@@ -9,7 +9,7 @@
     </parent>
     <groupId>andrew</groupId>
     <artifactId>pet-clinic</artifactId>
-    <version>0.0.3-SNAPSHOT</version>
+    <version>0.0.3</version>
     <packaging>pom</packaging>
     <name>pet-clinic</name>
     <description>pet-clinic</description>
@@ -42,7 +42,7 @@
     <scm>
         <developerConnection>scm:git:https://github.com/AP-Harper/pet-clinic.git</developerConnection>
 
-      <tag>pet-clinic-0.0.1</tag>
+      <tag>pet-clinic-0.0.3</tag>
   </scm>
 
 </project>

@@ -1,13 +1,9 @@
 package andrew.services;
 
 
-import java.util.Set;
+import andrew.model.Vet;
 
-public interface VetService {
 
-    Vet findByID(Long id);
+public interface VetService extends CrudService<Vet, Long> {
 
-    Vet save(Vet owner);
-
-    Set<Vet> findAll();
 }

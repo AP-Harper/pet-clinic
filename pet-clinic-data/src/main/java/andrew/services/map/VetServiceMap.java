@@ -4,9 +4,12 @@ import andrew.model.Owner;
 import andrew.model.Pet;
 import andrew.model.Vet;
 import andrew.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override

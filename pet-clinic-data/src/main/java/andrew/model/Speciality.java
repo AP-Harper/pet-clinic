@@ -1,5 +1,8 @@
 package andrew.model;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Speciality extends BaseEntity {
 
     private String description;

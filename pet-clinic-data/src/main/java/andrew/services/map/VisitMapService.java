@@ -2,9 +2,11 @@ package andrew.services.map;
 
 import andrew.model.Visit;
 import andrew.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitMapService extends AbstractMapService<Visit, Long> implements VisitService {
 
 

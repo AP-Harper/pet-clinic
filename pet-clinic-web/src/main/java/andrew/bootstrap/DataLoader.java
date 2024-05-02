@@ -2,8 +2,6 @@ package andrew.bootstrap;
 
 import andrew.model.*;
 import andrew.services.*;
-import andrew.services.map.OwnerServiceMap;
-import andrew.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

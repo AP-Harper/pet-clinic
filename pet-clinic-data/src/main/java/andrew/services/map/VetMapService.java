@@ -1,22 +1,22 @@
 package andrew.services.map;
 
-import andrew.model.Owner;
-import andrew.model.Pet;
 import andrew.model.Speciality;
 import andrew.model.Vet;
 import andrew.services.SpecialityService;
 import andrew.services.VetService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 
 @Service
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
+@Profile({"default", "map"})
+public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
 
     private final SpecialityService specialityService;
 
-    public VetServiceMap(SpecialityService specialityService) {
+    public VetMapService(SpecialityService specialityService) {
         this.specialityService = specialityService;
     }
 

@@ -4,11 +4,13 @@ import andrew.model.Pet;
 import andrew.model.PetType;
 import andrew.services.PetTypeService;
 import andrew.services.map.AbstractMapService;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class PetTypeMapService extends AbstractMapService<PetType, Long> implements PetTypeService {
     @Override
     public Set<PetType> findAll() {

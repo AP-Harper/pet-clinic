@@ -6,11 +6,8 @@ import andrew.repositories.PetRepository;
 import andrew.repositories.PetTypeRepository;
 import andrew.services.OwnerService;
 import org.springframework.context.annotation.Profile;
-import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
-
 import java.util.HashSet;
-import java.util.Optional;
 import java.util.Set;
 
 @Service
